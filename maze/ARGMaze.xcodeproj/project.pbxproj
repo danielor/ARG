@@ -16,6 +16,7 @@
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
 		E6016D971077D2CB0040711D /* CoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6016D961077D2CB0040711D /* CoreLocationController.m */; };
+		E6016E1B1077D6A20040711D /* ARGMazeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		8D1107310486CEB800E47090 /* ARGMaze-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ARGMaze-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		E6016D951077D2CB0040711D /* CoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreLocationController.h; path = ../CoreLocationController.h; sourceTree = "<group>"; };
 		E6016D961077D2CB0040711D /* CoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreLocationController.m; path = ../CoreLocationController.m; sourceTree = "<group>"; };
+		E6016E191077D6A20040711D /* ARGMazeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGMazeViewController.h; sourceTree = "<group>"; };
+		E6016E1A1077D6A20040711D /* ARGMazeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGMazeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E6016E191077D6A20040711D /* ARGMazeViewController.h */,
+				E6016E1A1077D6A20040711D /* ARGMazeViewController.m */,
 				E6016D961077D2CB0040711D /* CoreLocationController.m */,
 				E6016D951077D2CB0040711D /* CoreLocationController.h */,
 				28FD14FC0DC6FC130079059D /* EAGLView.h */,
@@ -170,6 +175,7 @@
 				1D3623260D0F684500981E51 /* ARGMazeAppDelegate.m in Sources */,
 				28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */,
 				E6016D971077D2CB0040711D /* CoreLocationController.m in Sources */,
+				E6016E1B1077D6A20040711D /* ARGMazeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
