@@ -1,0 +1,134 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ExtendedRealityGamesAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 308}}";
+			sepNavSelRange = "{8, 0}";
+			sepNavVisRange = "{0, 399}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ExtendedRealityGamesAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 546}}";
+			sepNavSelRange = "{50, 0}";
+			sepNavVisRange = "{0, 410}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* ExtendedRealityGames */ = {
+		activeExec = 0;
+		executables = (
+			E6016D491076A2600040711D /* ExtendedRealityGames */,
+		);
+	};
+	28FD14FC0DC6FC130079059D /* EAGLView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {576, 658}}";
+			sepNavSelRange = "{45, 0}";
+			sepNavVisRange = "{0, 502}";
+		};
+	};
+	28FD14FD0DC6FC130079059D /* EAGLView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 2940}}";
+			sepNavSelRange = "{21, 0}";
+			sepNavVisRange = "{0, 284}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E6016D491076A2600040711D /* ExtendedRealityGames */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ExtendedRealityGames */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ExtendedRealityGames */,
+		);
+		codeSenseManager = E6016D5D1076A2810040711D /* Code sense */;
+		executables = (
+			E6016D491076A2600040711D /* ExtendedRealityGames */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 276210272;
+			PBXWorkspaceStateSaveDate = 276210272;
+		};
+		sourceControlManager = E6016D5C1076A2810040711D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 253}}";
+			sepNavSelRange = "{55, 0}";
+			sepNavVisRange = "{0, 316}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* ExtendedRealityGames_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 253}}";
+			sepNavSelRange = "{231, 0}";
+			sepNavVisRange = "{0, 239}";
+		};
+	};
+	E6016D491076A2600040711D /* ExtendedRealityGames */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ExtendedRealityGames;
+		sourceDirectories = (
+		);
+	};
+	E6016D5C1076A2810040711D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	E6016D5D1076A2810040711D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E6016D631076A2B30040711D /* CoreLocationController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {697, 532}}";
+			sepNavSelRange = "{101, 0}";
+			sepNavVisRange = "{0, 1026}";
+			sepNavWindowFrame = "{{133, 317}, {756, 561}}";
+		};
+	};
+	E6016D641076A2B30040711D /* CoreLocationController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {582, 532}}";
+			sepNavSelRange = "{2, 0}";
+			sepNavVisRange = "{0, 361}";
+		};
+	};
+	E6016D7B1076B50B0040711D /* BluetoothPeerController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {522, 308}}";
+			sepNavSelRange = "{395, 0}";
+			sepNavVisRange = "{0, 448}";
+		};
+	};
+	E6016D7C1076B50B0040711D /* BluetoothPeerController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 253}}";
+			sepNavSelRange = "{60, 0}";
+			sepNavVisRange = "{0, 190}";
+		};
+	};
+}
