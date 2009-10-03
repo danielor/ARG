@@ -163,7 +163,7 @@
 					</object>
 					<string>{{500, 343}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>ExtendedRealityGamesAppDelegate</string>
+					<string>ARGMazeAppDelegate</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>EAGLView</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -199,7 +199,7 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">ExtendedRealityGamesAppDelegate</string>
+					<string key="className">ARGMazeAppDelegate</string>
 					<string key="superclassName">NSObject</string>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -216,7 +216,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">Classes/ExtendedRealityGamesAppDelegate.h</string>
+						<string key="minorKey">Classes/ARGMazeAppDelegate.h</string>
 					</object>
 				</object>
 			</object>
@@ -227,7 +227,7 @@
 			<integer value="3100" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<string key="IBDocument.LastKnownRelativeProjectPath">ExtendedRealityGames.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">ARGMaze.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 	</data>
 </archive>
