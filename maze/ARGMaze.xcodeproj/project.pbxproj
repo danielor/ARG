@@ -17,6 +17,7 @@
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
 		E6016D971077D2CB0040711D /* CoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6016D961077D2CB0040711D /* CoreLocationController.m */; };
 		E6016E1B1077D6A20040711D /* ARGMazeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */; };
+		E6016E631077E5000040711D /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = E6016E621077E5000040711D /* block.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E6016D961077D2CB0040711D /* CoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreLocationController.m; path = ../CoreLocationController.m; sourceTree = "<group>"; };
 		E6016E191077D6A20040711D /* ARGMazeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGMazeViewController.h; sourceTree = "<group>"; };
 		E6016E1A1077D6A20040711D /* ARGMazeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGMazeViewController.m; sourceTree = "<group>"; };
+		E6016E621077E5000040711D /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = block.png; path = ../../../../Downloads/block.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E6016E621077E5000040711D /* block.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* ARGMaze-Info.plist */,
 			);
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				E6016E631077E5000040711D /* block.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

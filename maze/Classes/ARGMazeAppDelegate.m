@@ -1,15 +1,15 @@
 //
-//  ARGMazeAppDelegate.m
-//  ARGMaze
+//  ARGtwoDMazeAppDelegate.m
+//  ARGtwoDMaze
 //
 //  Created by Daniel  Ortiz on 10/3/09.
 //  Copyright University Michigan 2009. All rights reserved.
 //
 
-#import "ARGMazeAppDelegate.h"
+#import "ARGtwoDMazeAppDelegate.h"
 #import "EAGLView.h"
 
-@implementation ARGMazeAppDelegate
+@implementation ARGtwoDMazeAppDelegate
 
 @synthesize window;
 @synthesize glView;

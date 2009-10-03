@@ -1,6 +1,6 @@
 //
 //  EAGLView.m
-//  ARGMaze
+//  ARGtwoDMaze
 //
 //  Created by Daniel  Ortiz on 10/3/09.
 //  Copyright University Michigan 2009. All rights reserved.
