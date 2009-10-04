@@ -3,15 +3,15 @@
 	1D3623240D0F684500981E51 /* ARGMazeAppDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {973, 498}}";
-			sepNavSelRange = "{482, 0}";
+			sepNavSelRange = "{306, 0}";
 			sepNavVisRange = "{0, 491}";
 		};
 	};
 	1D3623250D0F684500981E51 /* ARGMazeAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {973, 490}}";
-			sepNavSelRange = "{221, 0}";
-			sepNavVisRange = "{0, 722}";
+			sepNavIntBoundsRect = "{{0, 0}, {576, 448}}";
+			sepNavSelRange = "{716, 0}";
+			sepNavVisRange = "{153, 228}";
 			sepNavWindowFrame = "{{38, 291}, {756, 561}}";
 		};
 	};
@@ -346,6 +346,51 @@
 			E601701B107944720040711D /* PBXTextBookmark */ = E601701B107944720040711D /* PBXTextBookmark */;
 			E601701C107944720040711D /* PBXTextBookmark */ = E601701C107944720040711D /* PBXTextBookmark */;
 			E601701E107944B40040711D /* PBXTextBookmark */ = E601701E107944B40040711D /* PBXTextBookmark */;
+			E6017024107947550040711D /* PBXTextBookmark */ = E6017024107947550040711D /* PBXTextBookmark */;
+			E6017025107947550040711D /* PBXTextBookmark */ = E6017025107947550040711D /* PBXTextBookmark */;
+			E6017026107947550040711D /* PBXTextBookmark */ = E6017026107947550040711D /* PBXTextBookmark */;
+			E6017027107947550040711D /* PBXTextBookmark */ = E6017027107947550040711D /* PBXTextBookmark */;
+			E6017028107947550040711D /* PBXTextBookmark */ = E6017028107947550040711D /* PBXTextBookmark */;
+			E6017029107947550040711D /* PBXTextBookmark */ = E6017029107947550040711D /* PBXTextBookmark */;
+			E601702A107947550040711D /* PBXTextBookmark */ = E601702A107947550040711D /* PBXTextBookmark */;
+			E601702B107947550040711D /* PBXTextBookmark */ = E601702B107947550040711D /* PBXTextBookmark */;
+			E601702C107947550040711D /* PBXTextBookmark */ = E601702C107947550040711D /* PBXTextBookmark */;
+			E601702D107947550040711D /* PBXTextBookmark */ = E601702D107947550040711D /* PBXTextBookmark */;
+			E601702E107947550040711D /* PBXTextBookmark */ = E601702E107947550040711D /* PBXTextBookmark */;
+			E601702F107947550040711D /* PBXTextBookmark */ = E601702F107947550040711D /* PBXTextBookmark */;
+			E6017030107947550040711D /* PBXTextBookmark */ = E6017030107947550040711D /* PBXTextBookmark */;
+			E6017031107947550040711D /* PBXTextBookmark */ = E6017031107947550040711D /* PBXTextBookmark */;
+			E6017032107947550040711D /* PBXTextBookmark */ = E6017032107947550040711D /* PBXTextBookmark */;
+			E6017033107947550040711D /* PBXTextBookmark */ = E6017033107947550040711D /* PBXTextBookmark */;
+			E6017034107947550040711D /* PBXTextBookmark */ = E6017034107947550040711D /* PBXTextBookmark */;
+			E6017035107947550040711D /* PBXTextBookmark */ = E6017035107947550040711D /* PBXTextBookmark */;
+			E6017036107947550040711D /* PBXTextBookmark */ = E6017036107947550040711D /* PBXTextBookmark */;
+			E6017037107947550040711D /* PBXTextBookmark */ = E6017037107947550040711D /* PBXTextBookmark */;
+			E6017038107947550040711D /* PBXTextBookmark */ = E6017038107947550040711D /* PBXTextBookmark */;
+			E6017039107947550040711D /* PBXTextBookmark */ = E6017039107947550040711D /* PBXTextBookmark */;
+			E601703A107947550040711D /* PBXTextBookmark */ = E601703A107947550040711D /* PBXTextBookmark */;
+			E601705610794B3E0040711D /* PBXTextBookmark */ = E601705610794B3E0040711D /* PBXTextBookmark */;
+			E601705710794B3E0040711D /* PBXTextBookmark */ = E601705710794B3E0040711D /* PBXTextBookmark */;
+			E601705810794B3E0040711D /* PBXTextBookmark */ = E601705810794B3E0040711D /* PBXTextBookmark */;
+			E601705910794B3E0040711D /* PBXTextBookmark */ = E601705910794B3E0040711D /* PBXTextBookmark */;
+			E601705A10794B3E0040711D /* PBXTextBookmark */ = E601705A10794B3E0040711D /* PBXTextBookmark */;
+			E601705B10794B3E0040711D /* PBXTextBookmark */ = E601705B10794B3E0040711D /* PBXTextBookmark */;
+			E601705C10794B3E0040711D /* PBXTextBookmark */ = E601705C10794B3E0040711D /* PBXTextBookmark */;
+			E601705D10794B3E0040711D /* PBXTextBookmark */ = E601705D10794B3E0040711D /* PBXTextBookmark */;
+			E601705E10794B3E0040711D /* PBXTextBookmark */ = E601705E10794B3E0040711D /* PBXTextBookmark */;
+			E601705F10794B3E0040711D /* PBXTextBookmark */ = E601705F10794B3E0040711D /* PBXTextBookmark */;
+			E601706010794B3E0040711D /* PBXTextBookmark */ = E601706010794B3E0040711D /* PBXTextBookmark */;
+			E601706110794B3E0040711D /* PBXTextBookmark */ = E601706110794B3E0040711D /* PBXTextBookmark */;
+			E601706210794B3E0040711D /* PBXTextBookmark */ = E601706210794B3E0040711D /* PBXTextBookmark */;
+			E601706310794B3E0040711D /* PBXTextBookmark */ = E601706310794B3E0040711D /* PBXTextBookmark */;
+			E601706410794B3E0040711D /* PBXTextBookmark */ = E601706410794B3E0040711D /* PBXTextBookmark */;
+			E601706510794B3E0040711D /* PBXTextBookmark */ = E601706510794B3E0040711D /* PBXTextBookmark */;
+			E601706610794B3E0040711D /* PBXTextBookmark */ = E601706610794B3E0040711D /* PBXTextBookmark */;
+			E601706710794B3E0040711D /* PBXTextBookmark */ = E601706710794B3E0040711D /* PBXTextBookmark */;
+			E601706810794B3E0040711D /* PBXTextBookmark */ = E601706810794B3E0040711D /* PBXTextBookmark */;
+			E601706910794B3E0040711D /* PBXTextBookmark */ = E601706910794B3E0040711D /* PBXTextBookmark */;
+			E601706A10794B3E0040711D /* PBXTextBookmark */ = E601706A10794B3E0040711D /* PBXTextBookmark */;
+			E601706B10794B3E0040711D /* PBXTextBookmark */ = E601706B10794B3E0040711D /* PBXTextBookmark */;
 		};
 		sourceControlManager = E6016D911077D2690040711D /* Source Control */;
 		userBuildSettings = {
@@ -386,6 +431,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = ARGMaze;
+		savedGlobals = {
+		};
 		sourceDirectories = (
 		);
 	};
@@ -476,16 +523,16 @@
 	};
 	E6016E191077D6A20040711D /* ARGMazeViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {973, 728}}";
-			sepNavSelRange = "{1428, 0}";
-			sepNavVisRange = "{272, 1163}";
+			sepNavIntBoundsRect = "{{0, 0}, {973, 812}}";
+			sepNavSelRange = "{1737, 0}";
+			sepNavVisRange = "{359, 1385}";
 		};
 	};
 	E6016E1A1077D6A20040711D /* ARGMazeViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {973, 3962}}";
-			sepNavSelRange = "{2623, 0}";
-			sepNavVisRange = "{1755, 1111}";
+			sepNavIntBoundsRect = "{{0, 0}, {973, 4058}}";
+			sepNavSelRange = "{6400, 0}";
+			sepNavVisRange = "{5786, 661}";
 		};
 	};
 	E6016E691077F2D00040711D /* PlistBookmark */ = {
@@ -578,7 +625,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 13";
 		rLen = 0;
-		rLoc = 246;
+		rLoc = 281;
 		rType = 0;
 		vrLen = 1065;
 		vrLoc = 95;
@@ -1058,7 +1105,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 33";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 0;
@@ -1078,7 +1125,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 33";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 0;
@@ -1098,7 +1145,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 33";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 0;
@@ -1118,7 +1165,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 33";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 0;
@@ -1128,7 +1175,7 @@
 		fRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */;
 		name = "ARGMazeViewController.m: 46";
 		rLen = 0;
-		rLoc = 6426;
+		rLoc = 6564;
 		rType = 0;
 		vrLen = 656;
 		vrLoc = 188;
@@ -1138,7 +1185,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 33";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 0;
@@ -1148,7 +1195,7 @@
 		fRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */;
 		name = "ARGMazeViewController.m: 48";
 		rLen = 0;
-		rLoc = 6426;
+		rLoc = 6564;
 		rType = 0;
 		vrLen = 664;
 		vrLoc = 227;
@@ -1158,7 +1205,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 33";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 0;
@@ -1178,7 +1225,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 33";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 0;
@@ -1328,7 +1375,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 38";
 		rLen = 0;
-		rLoc = 1409;
+		rLoc = 1551;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 43;
@@ -1348,7 +1395,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 38";
 		rLen = 0;
-		rLoc = 1409;
+		rLoc = 1551;
 		rType = 0;
 		vrLen = 1258;
 		vrLoc = 31;
@@ -1388,7 +1435,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 38";
 		rLen = 0;
-		rLoc = 1409;
+		rLoc = 1551;
 		rType = 0;
 		vrLen = 1201;
 		vrLoc = 159;
@@ -1441,7 +1488,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 20";
 		rLen = 0;
-		rLoc = 485;
+		rLoc = 520;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 156;
@@ -1521,7 +1568,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 20";
 		rLen = 0;
-		rLoc = 485;
+		rLoc = 520;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 156;
@@ -1541,7 +1588,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 20";
 		rLen = 0;
-		rLoc = 485;
+		rLoc = 520;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 156;
@@ -1681,7 +1728,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 519;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 156;
@@ -1701,7 +1748,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 519;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 95;
@@ -1791,7 +1838,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 519;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 95;
@@ -1811,7 +1858,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 519;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 95;
@@ -1831,7 +1878,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 22";
 		rLen = 0;
-		rLoc = 502;
+		rLoc = 537;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 95;
@@ -1851,7 +1898,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 22";
 		rLen = 0;
-		rLoc = 502;
+		rLoc = 537;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 95;
@@ -1871,7 +1918,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 22";
 		rLen = 0;
-		rLoc = 502;
+		rLoc = 537;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 95;
@@ -1891,7 +1938,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 22";
 		rLen = 0;
-		rLoc = 502;
+		rLoc = 537;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 95;
@@ -1911,7 +1958,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 22";
 		rLen = 0;
-		rLoc = 502;
+		rLoc = 537;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 95;
@@ -1931,7 +1978,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 22";
 		rLen = 0;
-		rLoc = 502;
+		rLoc = 537;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 95;
@@ -1951,7 +1998,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 21";
 		rLen = 0;
-		rLoc = 364;
+		rLoc = 399;
 		rType = 0;
 		vrLen = 1213;
 		vrLoc = 95;
@@ -1971,7 +2018,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 21";
 		rLen = 0;
-		rLoc = 325;
+		rLoc = 360;
 		rType = 0;
 		vrLen = 1160;
 		vrLoc = 95;
@@ -1991,7 +2038,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 21";
 		rLen = 0;
-		rLoc = 326;
+		rLoc = 361;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 95;
@@ -2011,7 +2058,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 13";
 		rLen = 0;
-		rLoc = 246;
+		rLoc = 281;
 		rType = 0;
 		vrLen = 1065;
 		vrLoc = 95;
@@ -2071,7 +2118,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 13";
 		rLen = 0;
-		rLoc = 246;
+		rLoc = 281;
 		rType = 0;
 		vrLen = 1065;
 		vrLoc = 95;
@@ -2171,7 +2218,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 13";
 		rLen = 0;
-		rLoc = 246;
+		rLoc = 281;
 		rType = 0;
 		vrLen = 1065;
 		vrLoc = 95;
@@ -2321,7 +2368,7 @@
 		comments = "error: property 'startPoint' with 'retain' attribute must be of object type";
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		rLen = 1;
-		rLoc = 50;
+		rLoc = 56;
 		rType = 1;
 	};
 	E6016FA810793FE10040711D /* PBXTextBookmark */ = {
@@ -2359,7 +2406,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 50";
 		rLen = 5;
-		rLoc = 1430;
+		rLoc = 1739;
 		rType = 0;
 		vrLen = 399;
 		vrLoc = 1055;
@@ -2379,7 +2426,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 50";
 		rLen = 5;
-		rLoc = 1430;
+		rLoc = 1739;
 		rType = 0;
 		vrLen = 459;
 		vrLoc = 995;
@@ -2399,7 +2446,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 13";
 		rLen = 0;
-		rLoc = 246;
+		rLoc = 281;
 		rType = 0;
 		vrLen = 1065;
 		vrLoc = 95;
@@ -2437,7 +2484,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 13";
 		rLen = 0;
-		rLoc = 246;
+		rLoc = 281;
 		rType = 0;
 		vrLen = 1065;
 		vrLoc = 95;
@@ -2467,7 +2514,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 50";
 		rLen = 5;
-		rLoc = 1430;
+		rLoc = 1739;
 		rType = 0;
 		vrLen = 443;
 		vrLoc = 995;
@@ -2505,7 +2552,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 50";
 		rLen = 5;
-		rLoc = 1430;
+		rLoc = 1739;
 		rType = 0;
 		vrLen = 443;
 		vrLoc = 995;
@@ -2723,7 +2770,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 49";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 1216;
 		vrLoc = 261;
@@ -2743,7 +2790,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 45";
 		rLen = 0;
-		rLoc = 1349;
+		rLoc = 1491;
 		rType = 0;
 		vrLen = 1190;
 		vrLoc = 248;
@@ -2843,7 +2890,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 29";
 		rLen = 0;
-		rLoc = 500;
+		rLoc = 535;
 		rType = 0;
 		vrLen = 1173;
 		vrLoc = 261;
@@ -2863,7 +2910,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 49";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 1216;
 		vrLoc = 261;
@@ -2953,7 +3000,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 49";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 1229;
 		vrLoc = 248;
@@ -2963,7 +3010,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 49";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 272;
@@ -2983,7 +3030,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 49";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 272;
@@ -3033,7 +3080,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 49";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 272;
@@ -3083,7 +3130,7 @@
 		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
 		name = "ARGMazeViewController.h: 49";
 		rLen = 0;
-		rLoc = 1428;
+		rLoc = 1587;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 272;
@@ -3127,5 +3174,455 @@
 		rType = 0;
 		vrLen = 722;
 		vrLoc = 0;
+	};
+	E6017024107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ARGMazeAppDelegate.m */;
+		name = "ARGMazeAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 0;
+	};
+	E6017025107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ARGMazeAppDelegate.h */;
+		name = "ARGMazeAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 306;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 0;
+	};
+	E6017026107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */;
+		name = "ARGMazeViewController.m: 160";
+		rLen = 0;
+		rLoc = 3939;
+		rType = 0;
+		vrLen = 769;
+		vrLoc = 3;
+	};
+	E6017027107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
+		name = "ARGMazeViewController.h: 49";
+		rLen = 0;
+		rLoc = 1587;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 272;
+	};
+	E6017028107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ARGMazeAppDelegate.m */;
+		name = "ARGMazeAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 0;
+	};
+	E6017029107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ARGMazeAppDelegate.h */;
+		name = "ARGMazeAppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 482;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 0;
+	};
+	E601702A107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */;
+		name = "ARGMazeViewController.m: 111";
+		rLen = 0;
+		rLoc = 2623;
+		rType = 0;
+		vrLen = 1132;
+		vrLoc = 1658;
+	};
+	E601702B107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ARGMazeAppDelegate.h */;
+		name = "ARGMazeAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 306;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 0;
+	};
+	E601702C107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
+		name = "ARGMazeViewController.h: 49";
+		rLen = 0;
+		rLoc = 1587;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 272;
+	};
+	E601702D107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */;
+		name = "ARGMazeViewController.m: 160";
+		rLen = 0;
+		rLoc = 3939;
+		rType = 0;
+		vrLen = 769;
+		vrLoc = 3;
+	};
+	E601702E107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ARGMazeAppDelegate.h */;
+		name = "ARGMazeAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 306;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 0;
+	};
+	E601702F107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ARGMazeAppDelegate.m */;
+		name = "ARGMazeAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 0;
+	};
+	E6017030107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
+		name = "ARGMazeViewController.h: 49";
+		rLen = 0;
+		rLoc = 1587;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 272;
+	};
+	E6017031107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */;
+		name = "ARGMazeViewController.m: 160";
+		rLen = 0;
+		rLoc = 3939;
+		rType = 0;
+		vrLen = 769;
+		vrLoc = 3;
+	};
+	E6017032107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ARGMazeAppDelegate.m */;
+		name = "ARGMazeAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 0;
+	};
+	E6017033107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ARGMazeAppDelegate.h */;
+		name = "ARGMazeAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 306;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 0;
+	};
+	E6017034107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
+		name = "ARGMazeViewController.h: 49";
+		rLen = 0;
+		rLoc = 1587;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 272;
+	};
+	E6017035107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */;
+		name = "ARGMazeViewController.m: 160";
+		rLen = 0;
+		rLoc = 3939;
+		rType = 0;
+		vrLen = 769;
+		vrLoc = 3;
+	};
+	E6017036107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
+		name = "ARGMazeViewController.h: 49";
+		rLen = 0;
+		rLoc = 1587;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 272;
+	};
+	E6017037107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ARGMazeAppDelegate.m */;
+		name = "ARGMazeAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 0;
+	};
+	E6017038107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ARGMazeAppDelegate.h */;
+		name = "ARGMazeAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 306;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 0;
+	};
+	E6017039107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */;
+		name = "ARGMazeViewController.m: 160";
+		rLen = 0;
+		rLoc = 3939;
+		rType = 0;
+		vrLen = 769;
+		vrLoc = 3;
+	};
+	E601703A107947550040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
+		name = "ARGMazeViewController.h: 49";
+		rLen = 0;
+		rLoc = 1587;
+		rType = 0;
+		vrLen = 1175;
+		vrLoc = 272;
+	};
+	E601705610794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016D961077D2CB0040711D /* CoreLocationController.m */;
+		name = "CoreLocationController.m: 22";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 0;
+	};
+	E601705710794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016D951077D2CB0040711D /* CoreLocationController.h */;
+		name = "CoreLocationController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 0;
+	};
+	E601705810794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
+		name = "ARGMazeViewController.h: 55";
+		rLen = 0;
+		rLoc = 1737;
+		rType = 0;
+		vrLen = 1385;
+		vrLoc = 359;
+	};
+	E601705910794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */;
+		name = "ARGMazeViewController.m: 160";
+		rLen = 0;
+		rLoc = 3939;
+		rType = 0;
+		vrLen = 728;
+		vrLoc = 160;
+	};
+	E601705A10794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
+		name = "ARGMazeViewController.h: 49";
+		rLen = 0;
+		rLoc = 1587;
+		rType = 0;
+		vrLen = 1175;
+		vrLoc = 272;
+	};
+	E601705B10794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */;
+		name = "ARGMazeViewController.m: 160";
+		rLen = 0;
+		rLoc = 3939;
+		rType = 0;
+		vrLen = 837;
+		vrLoc = 51;
+	};
+	E601705C10794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016D961077D2CB0040711D /* CoreLocationController.m */;
+		name = "CoreLocationController.m: 22";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 0;
+	};
+	E601705D10794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016D951077D2CB0040711D /* CoreLocationController.h */;
+		name = "CoreLocationController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 0;
+	};
+	E601705E10794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
+		name = "ARGMazeViewController.h: 30";
+		rLen = 0;
+		rLoc = 571;
+		rType = 0;
+		vrLen = 962;
+		vrLoc = 0;
+	};
+	E601705F10794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016D961077D2CB0040711D /* CoreLocationController.m */;
+		name = "CoreLocationController.m: 22";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 0;
+	};
+	E601706010794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016D951077D2CB0040711D /* CoreLocationController.h */;
+		name = "CoreLocationController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 0;
+	};
+	E601706110794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
+		name = "ARGMazeViewController.h: 17";
+		rLen = 0;
+		rLoc = 316;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 331;
+	};
+	E601706210794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016D961077D2CB0040711D /* CoreLocationController.m */;
+		name = "CoreLocationController.m: 22";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 0;
+	};
+	E601706310794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016D951077D2CB0040711D /* CoreLocationController.h */;
+		name = "CoreLocationController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 0;
+	};
+	E601706410794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016D961077D2CB0040711D /* CoreLocationController.m */;
+		name = "CoreLocationController.m: 22";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 0;
+	};
+	E601706510794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
+		name = "ARGMazeViewController.h: 17";
+		rLen = 0;
+		rLoc = 316;
+		rType = 0;
+		vrLen = 1222;
+		vrLoc = 317;
+	};
+	E601706610794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016D951077D2CB0040711D /* CoreLocationController.h */;
+		name = "CoreLocationController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 0;
+	};
+	E601706710794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016D961077D2CB0040711D /* CoreLocationController.m */;
+		name = "CoreLocationController.m: 22";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 0;
+	};
+	E601706810794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016D951077D2CB0040711D /* CoreLocationController.h */;
+		name = "CoreLocationController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 0;
+	};
+	E601706910794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */;
+		name = "ARGMazeViewController.m: 160";
+		rLen = 0;
+		rLoc = 3939;
+		rType = 0;
+		vrLen = 728;
+		vrLoc = 160;
+	};
+	E601706A10794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E191077D6A20040711D /* ARGMazeViewController.h */;
+		name = "ARGMazeViewController.h: 55";
+		rLen = 0;
+		rLoc = 1737;
+		rType = 0;
+		vrLen = 1385;
+		vrLoc = 359;
+	};
+	E601706B10794B3E0040711D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */;
+		name = "ARGMazeViewController.m: 272";
+		rLen = 0;
+		rLoc = 6400;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 5786;
 	};
 }

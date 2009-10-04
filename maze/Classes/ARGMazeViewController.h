@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CoreLocationController.h"
 #include <stdlib.h>
 
 typedef  enum  {
@@ -26,15 +27,16 @@ typedef enum  {
 #define twoDMaze_CONNSTANT 100 /* Multiply by the level to get the grid dimension for twoDMaze */
 #define BLOCK_SIZE 8
 
-@interface ARGMazeViewController : UIViewController {
-	IBOutlet UIImageView * person;			/* The person that moves around the map - could be a dot*/
-	NSMutableArray * arrayOftwoDMazeBlocks;		/* An array of UIImageViews */
-	UIImage * twoDMazeBlocks;					/* The blocks of twoDMaze in the games */
-	NSInteger gameState;					/* The state of the game */
-	NSInteger level;						/* The level of the game */
-	NSTimer * gameTimer;					/* Game Timer */
-	CGPoint startPoint;						/* The start point in the twoDMaze */
-	CGPoint endPoint;						/* The end point of the twoDMaze */
+@interface ARGMazeViewController : UIViewController<LocationProviderDelegate> {
+	IBOutlet UIImageView * person;					/* The person that moves around the map - could be a dot*/
+	NSMutableArray * arrayOftwoDMazeBlocks;			/* An array of UIImageViews */
+	UIImage * twoDMazeBlocks;						/* The blocks of twoDMaze in the games */
+	NSInteger gameState;							/* The state of the game */
+	NSInteger level;								/* The level of the game */
+	NSTimer * gameTimer;							/* Game Timer */
+	CGPoint startPoint;								/* The start point in the twoDMaze */
+	CGPoint endPoint;								/* The end point of the twoDMaze */
+	CoreLocationController * locationController;	/* Get the update */
 }
 
 @property(nonatomic, retain) IBOutlet UIImageView * person;
@@ -46,6 +48,10 @@ typedef enum  {
 @property(nonatomic) CGPoint endPoint;
 
 -(void)gameLoop;
+-(void)loadLevel;
 
+// LocationProvider Delegate
+-(void)locationUpdate:(CLLocation*)location oldLocation:(CLLocation*)OldLocation;
+-(void)locationError:(NSError*)error;
 
 @end

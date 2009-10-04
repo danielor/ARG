@@ -267,6 +267,14 @@
 	}
 }
 
+- (void)locationUpdate:(CLLocation *)newLocation oldLocation:(CLLocation*)OldLocation {
+	
+}
+
+- (void)locationError:(NSError *)error {
+
+}
+
 -(void) dealloc {
 	self.person = nil;
 	self.twoDMazeBlocks = nil;

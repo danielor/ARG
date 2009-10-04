@@ -274,7 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
+									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -299,7 +299,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>531 129 1242 749 0 0 1440 878 </string>
+						<string>496 129 1242 749 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ARGMazeAppDelegate.m</string>
+								<string>ARGMazeViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ARGMazeAppDelegate.m</string>
+										<string>ARGMazeViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E601701E107944B40040711D</string>
+										<string>E601706B10794B3E0040711D</string>
 										<key>history</key>
 										<array>
 											<string>E6016E691077F2D00040711D</string>
@@ -337,13 +337,13 @@
 											<string>E6016FDF1079414E0040711D</string>
 											<string>E6016FE01079414E0040711D</string>
 											<string>E6016FE11079414E0040711D</string>
-											<string>E6016FE31079414E0040711D</string>
-											<string>E6016FE61079414E0040711D</string>
-											<string>E6017013107944720040711D</string>
-											<string>E6017014107944720040711D</string>
 											<string>E6017015107944720040711D</string>
-											<string>E6017016107944720040711D</string>
-											<string>E6017017107944720040711D</string>
+											<string>E6017024107947550040711D</string>
+											<string>E6017025107947550040711D</string>
+											<string>E601705610794B3E0040711D</string>
+											<string>E601705710794B3E0040711D</string>
+											<string>E601705810794B3E0040711D</string>
+											<string>E601705910794B3E0040711D</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -402,6 +402,41 @@
 											<string>E6017019107944720040711D</string>
 											<string>E601701A107944720040711D</string>
 											<string>E601701B107944720040711D</string>
+											<string>E6017028107947550040711D</string>
+											<string>E6017029107947550040711D</string>
+											<string>E601702A107947550040711D</string>
+											<string>E601702B107947550040711D</string>
+											<string>E601702C107947550040711D</string>
+											<string>E601702D107947550040711D</string>
+											<string>E601702E107947550040711D</string>
+											<string>E601702F107947550040711D</string>
+											<string>E6017030107947550040711D</string>
+											<string>E6017031107947550040711D</string>
+											<string>E6017032107947550040711D</string>
+											<string>E6017033107947550040711D</string>
+											<string>E6017034107947550040711D</string>
+											<string>E6017035107947550040711D</string>
+											<string>E6017036107947550040711D</string>
+											<string>E6017037107947550040711D</string>
+											<string>E6017038107947550040711D</string>
+											<string>E6017039107947550040711D</string>
+											<string>E601705A10794B3E0040711D</string>
+											<string>E601705B10794B3E0040711D</string>
+											<string>E601705C10794B3E0040711D</string>
+											<string>E601705D10794B3E0040711D</string>
+											<string>E601705E10794B3E0040711D</string>
+											<string>E601705F10794B3E0040711D</string>
+											<string>E601706010794B3E0040711D</string>
+											<string>E601706110794B3E0040711D</string>
+											<string>E601706210794B3E0040711D</string>
+											<string>E601706310794B3E0040711D</string>
+											<string>E601706410794B3E0040711D</string>
+											<string>E601706510794B3E0040711D</string>
+											<string>E601706610794B3E0040711D</string>
+											<string>E601706710794B3E0040711D</string>
+											<string>E601706810794B3E0040711D</string>
+											<string>E601706910794B3E0040711D</string>
+											<string>E601706A10794B3E0040711D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -415,7 +450,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1034, 530}}</string>
 								<key>RubberWindowFrame</key>
-								<string>531 129 1242 749 0 0 1440 878 </string>
+								<string>496 129 1242 749 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -435,7 +470,7 @@
 								<key>Frame</key>
 								<string>{{0, 535}, {1034, 173}}</string>
 								<key>RubberWindowFrame</key>
-								<string>531 129 1242 749 0 0 1440 878 </string>
+								<string>496 129 1242 749 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -595,13 +630,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>E601703B107947550040711D</string>
+		<string>E601703C107947550040711D</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E6016FAE10793FE10040711D</string>
 		<string>/Users/danielo/Documents/Prototypes/ARG/maze/ARGMaze.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>531 129 1242 749 0 0 1440 878 </string>
+	<string>496 129 1242 749 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
