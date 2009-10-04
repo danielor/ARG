@@ -11,7 +11,7 @@
 
 @implementation ARGMazeViewController
 
-@synthesize person, arrayOftwoDMazeBlocks, twoDMazeBlocks, gameState, gameTimer, startPoint, endPoint
+@synthesize person, arrayOftwoDMazeBlocks, twoDMazeBlocks, gameState, gameTimer, startPoint, endPoint;
 
 -(void) viewDidLoad {
 	[super viewDidLoad];
@@ -21,6 +21,7 @@
 	gameState = StartGame;
 	arrayOftwoDMazeBlocks = [[NSMutableArray alloc] init];
 	twoDMazeBlocks = [UIImage imageNamed:@"block.png"];
+	[self loadLevel];
 	
 	// Start the game loop
 	[NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(gameLoop) userInfo:nil repeats:YES];
@@ -51,9 +52,10 @@
 }
 
 
+
 -(void) loadLevel{
 	int size = level * twoDMaze_CONNSTANT + 1;
-	int twoDMaze[twoDMaze_Size][twoDMaze_Size];
+	int twoDMaze[size][size];
 	
 	// Draw the outer walls
 	for(int i = 0; i != size; ++i){
@@ -100,12 +102,12 @@
 				{
 					switch(arc4random() % 6)
 					{
-						case 0: swap(&&twoDMaze[y-1][x], &twoDMaze[y+1][x]); break;
-						case 1: swap(&twoDMaze[y-1][x], &twoDMaze[y][x+1]); break;
-						case 2: swap(&twoDMaze[y-1][x], &twoDMaze[y][x-1]); break;
-						case 3: swap(&twoDMaze[y+1][x], &twoDMaze[y][x+1]); break;
-						case 4: swap(&twoDMaze[y+1][x], &twoDMaze[y][x-1]); break;
-						case 5: swap(&twoDMaze[y][x+1], &twoDMaze[y][x-1]); break;
+						case 0:[self swap:&twoDMaze[y-1][x] second:&twoDMaze[y+1][x]]; break; 
+						case 1:[self swap:&twoDMaze[y-1][x] second:&twoDMaze[y][x+1]]; break; 
+						case 2:[self swap:&twoDMaze[y-1][x] second:&twoDMaze[y][x-1]]; break; 
+						case 3:[self swap:&twoDMaze[y+1][x] second:&twoDMaze[y][x+1]]; break; 
+						case 4:[self swap:&twoDMaze[y+1][x] second:&twoDMaze[y][x-1]]; break; 
+						case 5:[self swap:&twoDMaze[y][x+1] second:&twoDMaze[y][x-1]]; break; 
 					}
 				}
 			}
@@ -164,11 +166,106 @@
 		}
 	}
 	
-
+	// Which point on the boundary
+	int start;
+	switch (startPointBoundary) {
+		case TOP:
+			start = arc4random() % topBoundaryCount;
+			break;
+		case BOTTOM:
+			start = arc4random() % bottomBoundaryCount;
+			break;
+		case LEFT:
+			start = arc4random() % leftBoundaryCount;
+			break;
+		case RIGHT:
+			start = arc4random() % rightBoundaryCount;
+			break;
+		default:
+			break;
+	}
+	int end;
+	switch (endPointBoundary) {
+		case TOP:
+			end = arc4random() % topBoundaryCount;
+			break;
+		case BOTTOM:
+			end = arc4random() % bottomBoundaryCount;
+			break;
+		case LEFT:
+			end = arc4random() % leftBoundaryCount;
+			break;
+		case RIGHT:
+			end = arc4random() % rightBoundaryCount;
+			break;
+		default:
+			break;
+	}
 	
+	//
+	int startCount = 0;
+	int endCount = 0;
+	for(int n = 0; n < size; n++){
+		switch (startPointBoundary) {
+			case TOP:
+				if(twoDMaze[n][size -1]){startCount++;}
+				if(startCount == start){
+					startPoint = CGPointMake(n * BLOCK_SIZE,  (size - 1) * BLOCK_SIZE);
+				}
+				break;
+			case BOTTOM:
+				if(twoDMaze[n][0]){ startCount++; }
+				if(startCount == start){
+					startPoint = CGPointMake(n * BLOCK_SIZE,  0);
+				}
+				break;
+			case LEFT:
+				if(twoDMaze[0][n]){ startCount++; }
+				if(startCount == start){
+					startPoint = CGPointMake(0, n * BLOCK_SIZE);
+				}
+				break;
+			case RIGHT:
+				if(twoDMaze[size-1][n]){ startCount++; }
+				if(startCount == start){
+					startPoint = CGPointMake((size - 1) * BLOCK_SIZE, n * BLOCK_SIZE);
+				}
+				break;
+			default:
+				break;
+		}
+		
+		switch (endPointBoundary) {
+			case TOP:
+				if(twoDMaze[n][size -1]){endCount++;}
+				if(endCount == end){
+					endPoint = CGPointMake(n * BLOCK_SIZE,  (size - 1) *BLOCK_SIZE);
+				}
+				break;
+			case BOTTOM:
+				if(twoDMaze[n][0]){ endCount++; }
+				if(endCount == end){
+					endPoint = CGPointMake(n * BLOCK_SIZE,  0);
+				}
+				break;
+			case LEFT:
+				if(twoDMaze[0][n]){ endCount++; }
+				if(endCount == end){
+					endPoint = CGPointMake(0,  (size - 1) * BLOCK_SIZE);
+				}
+				break;
+			case RIGHT:
+				if(twoDMaze[size-1][n]){ endCount++; }
+				
+				if(endCount == end){
+					endPoint = CGPointMake((size - 1) * BLOCK_SIZE,  n * BLOCK_SIZE);
+				}
+				break;
+			default:
+				break;
+		}
+	}
 }
-
-
 
 -(void) dealloc {
 	self.person = nil;

@@ -18,6 +18,7 @@
 		E6016D971077D2CB0040711D /* CoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6016D961077D2CB0040711D /* CoreLocationController.m */; };
 		E6016E1B1077D6A20040711D /* ARGMazeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6016E1A1077D6A20040711D /* ARGMazeViewController.m */; };
 		E6016E631077E5000040711D /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = E6016E621077E5000040711D /* block.png */; };
+		E6016FC5107940690040711D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6016FC4107940690040711D /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		E6016E191077D6A20040711D /* ARGMazeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGMazeViewController.h; sourceTree = "<group>"; };
 		E6016E1A1077D6A20040711D /* ARGMazeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGMazeViewController.m; sourceTree = "<group>"; };
 		E6016E621077E5000040711D /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = block.png; path = ../../../../Downloads/block.png; sourceTree = SOURCE_ROOT; };
+		E6016FC4107940690040711D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
 				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				E6016FC5107940690040711D /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +116,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E6016FC4107940690040711D /* CoreLocation.framework */,
 				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
 				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,

@@ -19,6 +19,7 @@
 		self.locationManager = [[[CLLocationManager alloc] init] autorelease];
 		self.locationManager.delegate = self;		/* Send location data to this controller */
 	}
+	return self;
 }
 
 -(void)locationManager:(CLLocationManager*)manager

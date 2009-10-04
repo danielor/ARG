@@ -26,7 +26,7 @@ typedef enum  {
 #define twoDMaze_CONNSTANT 100 /* Multiply by the level to get the grid dimension for twoDMaze */
 #define BLOCK_SIZE 8
 
-@interface ARGtwoDMazeViewController : UIViewController {
+@interface ARGMazeViewController : UIViewController {
 	IBOutlet UIImageView * person;			/* The person that moves around the map - could be a dot*/
 	NSMutableArray * arrayOftwoDMazeBlocks;		/* An array of UIImageViews */
 	UIImage * twoDMazeBlocks;					/* The blocks of twoDMaze in the games */
@@ -42,9 +42,10 @@ typedef enum  {
 @property(nonatomic, retain) NSMutableArray * arrayOftwoDMazeBlocks;
 @property(nonatomic, retain) UIImage * twoDMazeBlocks;
 @property(nonatomic, retain) NSTimer * gameTimer;
-@property(nonatomic, retain) CGPoint startPoint;
-@property(nonatomic, retain) CGPoint endPoint;
+@property(nonatomic) CGPoint startPoint;
+@property(nonatomic) CGPoint endPoint;
 
 -(void)gameLoop;
+
 
 @end

@@ -6,35 +6,29 @@
 //  Copyright University Michigan 2009. All rights reserved.
 //
 
-#import "ARGtwoDMazeAppDelegate.h"
-#import "EAGLView.h"
+#import "ARGMazeAppDelegate.h"
+#import "ARGMazeViewController.h"
 
-@implementation ARGtwoDMazeAppDelegate
+@implementation ARGMazeAppDelegate
 
 @synthesize window;
-@synthesize glView;
+@synthesize viewController;
 
-- (void)applicationDidFinishLaunching:(UIApplication *)application {
+
+- (void)applicationDidFinishLaunching:(UIApplication *)application {    
     
-	glView.animationInterval = 1.0 / 60.0;
-	[glView startAnimation];
-}
-
-
-- (void)applicationWillResignActive:(UIApplication *)application {
-	glView.animationInterval = 1.0 / 5.0;
-}
-
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-	glView.animationInterval = 1.0 / 60.0;
+	application.idleTimerDisabled = YES; // we don't want the screen to sleep during our game 
+	
+    // Override point for customization after app launch    
+    [window addSubview:viewController.view];
+    [window makeKeyAndVisible];
 }
 
 
 - (void)dealloc {
-	[window release];
-	[glView release];
-	[super dealloc];
+    [viewController release];
+    [window release];
+    [super dealloc];
 }
 
 @end

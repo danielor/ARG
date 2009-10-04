@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class EAGLView;
+@class ARGMazeViewController;
 
-@interface ARGtwoDMazeAppDelegate : NSObject <UIApplicationDelegate> {
+@interface ARGMazeAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    EAGLView *glView;
+    ARGMazeViewController * viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet EAGLView *glView;
+@property (nonatomic, retain) IBOutlet ARGMazeViewController *viewController;
 
 @end
 
